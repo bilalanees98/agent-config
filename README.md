@@ -28,4 +28,7 @@ Re-run after adding a skill or agent. It only creates or updates symlinks; a rea
 - `implement-review` skill — implementer → reviewer loop over a task or an implementation plan, one task set at a time, committing each. `mode=manual` (default) pauses for you after every review; `mode=auto` lets the reviewer's severity triage decide what gets fixed. Ends with an inline report of findings and decisions.
   - Claude: `/implement-review docs/plan.md mode=auto`
   - Codex: `$implement-review docs/plan.md mode=auto`
+- `spec-english` skill — prose output in ASD-STE100 Simplified Technical English. Intensity 0–100, default 80; stays on until "stop spec-english".
+  - Claude: `/spec-english` or `/spec-english 100`
+  - Codex: `$spec-english` or `$spec-english 100`
 - `implementer`, `code-reviewer` agents — used by the skill; also usable on their own.
