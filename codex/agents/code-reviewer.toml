@@ -1,7 +1,7 @@
 # Hand-copied from claude/agents/code-reviewer.md — not auto-synced.
 name = "code-reviewer"
 description = 'Reviews code for correctness bugs and quality issues. Defaults to a general review of the current diff. Optionally pass a skill/instruction file path in the prompt (e.g. "review using .claude/skills/security-review/SKILL.md") to run that specific review instead.'
-model = "gpt-6-sol"
+model = "gpt-6.1-sol"
 model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 developer_instructions = '''
