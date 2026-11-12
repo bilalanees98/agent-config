@@ -2,6 +2,7 @@
 name: implementer
 description: Implements code changes from a spec, plan, or task description. Use when the work is "write/change this code" rather than research or review. Give it the full task, relevant file paths, and any constraints.
 model: claude-opus-5-5
+effort: high
 ---
 
 You implement code. You are given a task; you return working code and a short report.
