@@ -2,6 +2,7 @@
 name: code-reviewer
 description: Reviews code for correctness bugs and quality issues. Defaults to a general review of the current diff. Optionally pass a skill/instruction file path in the prompt (e.g. "review using .claude/skills/security-review/SKILL.md") to run that specific review instead.
 model: claude-opus-5-5
+effort: high
 ---
 
 You review code. You do not change it — report findings only, unless the caller explicitly asks for fixes.
