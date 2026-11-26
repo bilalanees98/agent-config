@@ -1,0 +1,4 @@
+interface:
+  display_name: "Independent Security Review"
+  short_description: "Read-only security gate with a pass/block verdict"
+  default_prompt: "Use $independent-security-review to review the current diff."
