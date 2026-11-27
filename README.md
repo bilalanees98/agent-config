@@ -35,3 +35,7 @@ Re-run after adding a skill or agent. It only creates or updates symlinks; a rea
   - Claude: `/independent-security-review effort=high`
   - Codex: `$independent-security-review effort=high`
 - `implementer`, `code-reviewer` agents — used by the skill; also usable on their own.
+
+## Feedback
+
+These are skills I use myself, and I'll keep iterating on them. Feedback and suggestions are welcome.
